@@ -1,0 +1,84 @@
+/* large tablets to 1200xp : from 1024px to  1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { 
+        padding: 0 2%; 
+    }
+
+    .name_header {
+        line-height: 5.5;
+        font-size: 70%;    
+    }
+    
+}
+
+/* small tab to large tablets : from 768px to  1023px */
+@media only screen and (max-width: 1023px) {
+    body {font-size: 13px;}
+    section {padding-top: 60px;}
+    .name_header {
+        line-height: 7.5;
+        font-size: 60%;  
+    }
+}
+
+/* small phones to small tablets : from 481px to  767px */
+@media only screen and (max-width: 767px) {
+    .col{
+        width: 100% !important;
+    }
+    .main-nav li {
+        margin-top: 7px;
+    }
+
+    .main-nav li a:link, 
+    .main-nav li a:visited {
+        font-size: 70%;
+    }
+    .main-nav {
+        display: inline-grid;
+        /* display: none; */
+    }
+
+    .sticky {
+        display: none;
+    }
+
+    /* -----------about me----------------- */
+    #aboutme row_aboutme_devices col {
+        width: 100% !important;
+    }
+
+    .about_me_img {
+        height: 200px;
+        margin: auto 20%
+    }
+
+    .city-image {
+        width: 40%;
+        margin: auto 35%;
+    } 
+
+    .users {
+        width: 60%;
+    }
+
+    .project_image {
+        width:80%;
+    }
+}
+
+/* small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .about_me_img {
+        margin: 0;
+    }
+
+    .project_image {
+        width:300px
+    }
+}
