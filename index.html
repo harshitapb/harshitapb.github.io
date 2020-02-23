@@ -52,15 +52,23 @@
         <nav>
             <div class="row">
                 <img class="logo" src="resources/images/logo.png">
+                
                 <a href="#header"><img class="logo-black" src="resources/images/logo.png"></a>
                 <strong><a class="name_header" href="#header">Harshita Prakash Borkar</a></strong>
-                <ul class="main-nav"> 
+                <ul class="main-nav js--main-nav"> 
                     <li><a href="#aboutme">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contactme">Contact</a></li>
                     <li><a href="resources\images\downloads\resume.pdf" target="none">Download Resume</a></li>
                 </ul>
+                
+                <!-- <ion-icon name="reorder-four-outline"></ion-icon> -->
+                <!-- <a class="mobile-nav-icon"><ion-icon class="mobile_nav_icon_image" name="reorder-three-outline"></ion-icon></a> -->
+                <a class="mobile-nav-icon js--nav-icon">
+                    <img id="open_img" class="mobile_nav_icon_image" src="resources/images/menu-open.png" onclick ="change();">
+                </a>
+                <!-- <a class="mobile-nav-icon js--nav-icon"><ion-icon class="mobile_nav_icon_image" name="checkmark" class="small-icons"></ion-icon></a> -->
             </div>
         </nav>
         <div class="hero-text-box">
@@ -96,10 +104,8 @@
         </div>
     </section>
 
-    
-
     <!-- ---------------------------------PROJECT CHATBOT------------------------------------ -->
-    <section class="section-main-project-chatbot">
+    <section class="section-main-project-chatbot" id='projects'>
             <div class="row">
                 <div class="project_number">1</div><h2>Genisys Genie - Chatbot</h2>
             </div>
@@ -157,7 +163,7 @@
     </section>
 
     <!-- ---------------------------------PROJECT RPA------------------------------------ -->
-    <section class="section-main-project-rpa" id='projects'>
+    <section class="section-main-project-rpa" >
         <div class="row">
             <div class="project_number">3</div><h2>Robotic Process Automation</h2>
         </div>
@@ -187,10 +193,70 @@
 
     <!-- ---------------------------------SKILLS------------------------------------ -->
     <section class="section-skills" id='skills'>
+            
         <div class="row">
             <h2>Skills and Certifications</h2>
         </div>
-        <div class="row js--wp-3">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <div class="plan-box skill_box">
+                    <div class="certs_skills_header">
+                        <!-- <p>&nbsp;</p><h3>Pro</h3> -->
+                        <p class="plan-price">Skilled In</p>
+                        <img class="skill_image" src="\resources\images\skills.svg" alt="Skills">
+                        <!-- <p class="plan-price-meal">That’s only 14.90$ per meal</p> -->
+                    </div>
+                    <div>
+                        <div class="row skill_content">
+                            <div class="col span-1-of-2 skill_content_col1">
+                                <ul>
+                                    <li><img class="skill_icon" src="\resources\images\2.svg" alt="wireframe"><span>Wireframing</span></li>   
+                                    <li><img class="skill_icon" src="\resources\images\prototype.svg" alt="wireframe"><span>Prototyping</span></li> 
+                                    <li><img class="skill_icon" src="\resources\images\illustrator.png" alt="wireframe"><span>Illustrations</span></li>     
+                                </ul>
+                            </div>
+                            <div class="col span-1-of-2 skill_content_col1 skill_content_col2">
+                                    <ul>
+                                        <li><img class="skill_icon " src="\resources\images\Untitled-1.png" alt="wireframe"><span>Figma</span></li>   
+                                        <li><img class="skill_icon " src="\resources\images\Untitled-2.png" alt="wireframe"><span>HTML + CSS</span>/li> 
+                                        <li><img class="skill_icon " src="\resources\images\Untitled-3.png" alt="wireframe"><span>Python</span></li>   
+                                    </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- <ul>
+                            <li><img style = "width: 10%;" src="\resources\images\2.svg" alt="wireframe">Wireframing</li>   
+                            <li>Prototyping</li>    
+                            <li>Figma</li>    
+                            <li>Illustrations</li>    
+                            <li>HTML + CSS</li>  
+                            <li>Python</li>  
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="plan-box cert_box">
+                    <div class="certs_skills_header">
+                        <!-- <p>&nbsp;</p><h3>Pro</h3> -->
+                        <p class="plan-price">Certified In</p>
+                        <img class="cert_image" src="\resources\images\certificate.png" alt="certificate">
+                        <!-- <p class="plan-price-meal">That’s only 14.90$ per meal</p> -->
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon name="checkmark" class="small-icons"></ion-icon>Human Computer Interaction - IDF</li>   
+                            <li><ion-icon name="checkmark" class="small-icons"></ion-icon>Web Design for Usability - IDF</li>    
+                            <li><ion-icon name="checkmark" class="small-icons"></ion-icon>User Experience - IDF</li>    
+                            <li><ion-icon name="checkmark" class="small-icons"></ion-icon>Robotiv Process Automation Developer - UIPath</li>    
+                            <li><ion-icon name="checkmark" class="small-icons"></ion-icon>RPA Developer SAP Automation</li>   
+                            <li>&nbsp;</li>  <li>&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row js--wp-3">
             <div class="col span-1-of-6 box">
                 <img src="resources/images/badge-wireframe.png" alt="Lisbon" class="city-image">
             </div>
@@ -210,8 +276,8 @@
                     <img src="resources/images/badge-illustrator.png" alt="London" class="city-image">
             </div>
                
-        </div>
-        <div class="row js--wp-3">
+        </div> -->
+        <!-- <div class="row js--wp-3">
             <div class="col span-1-of-6 box">
                     <img src="resources/images/badge-uipath.png" alt="London" class="city-image">
             </div> 
@@ -240,9 +306,9 @@
                     <img src="resources/images/RPA-developer-SAP-solid.png" alt="London" class="city-image">
                 </a>
             </div>    
-        </div>
+        </div> -->
     </section>
-    
+        
     <!-- ---------------------------------CONTACT ME------------------------------------ -->
     <section class="section-contact" id='contactme'>
         <!-- <div class="row">
@@ -258,7 +324,7 @@
                 
             </div>
             <div class="col span-1-of-2 steps-box">
-                <form id="contact-form">
+                <form id="contact-form" class = "contactme_form">
                     <input type="hidden" name="contact_number" />
                     <div class=row>
                         <div class="col span-1-of-3">
