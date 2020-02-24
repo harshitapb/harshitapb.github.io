@@ -38,7 +38,7 @@
     .sticky { 
         position: fixed;
     }
-    
+
     .name_header {
         line-height: 2;
         font-size: 60%;  
@@ -79,7 +79,7 @@
     .main-nav li {
         margin-top: 10px;
         display: block;
-    } */
+    } 
   
     /* .sticky {
         display: none;

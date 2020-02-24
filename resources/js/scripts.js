@@ -111,22 +111,19 @@ function sendemail()
     function change() {
         var imgopenElement = document.getElementById('open_img');
         var imgcloseElement = document.getElementById('close_img');
-       
-        // var navstickyevent = document.getElementsByClassName('sticky');
-        // console.log(navstickyevent.length);
         if(imgopenElement){
             imgopenElement.id = "close_img";
             imgopenElement.src = "resources/images/menu-close.png";
             $('.mobile_nav_icon_image').addClass('mobile_nav_icon_closeimage');
+            $('.top_nav').addClass('top_nav_background');
             $('.sticky').addClass('sticky_open ');
-            // console.log('1');
 
         } else {
             imgcloseElement.id = "open_img";
             imgcloseElement.src = "resources/images/menu-open.png";
             $('.mobile_nav_icon_image').removeClass('mobile_nav_icon_closeimage');
+            $('.top_nav').removeClass('top_nav_background');
             $('.sticky').removeClass('sticky_open');
-            // console.log('2');
         }
      }
 

@@ -246,7 +246,7 @@ input[type=submit]:visited {
 }
 
 .sticky_open {
-    height: 27%;
+    height: 22%;
 }
 
 .sticky .main-nav li a:link,
@@ -257,6 +257,7 @@ input[type=submit]:visited {
     font-size: 55%;
     letter-spacing: 2px;
     padding-bottom: 15px;
+    margin-left: 10px;
 }
 
 .logo-black {
@@ -275,6 +276,15 @@ input[type=submit]:visited {
 
 .sticky name_header {
     color: 00579F;
+}
+
+.top_nav_background {
+    background: rgba(255, 255, 255, 0.965);
+}
+
+.top_nav_background ul li a {
+    color: #000 !important;
+    margin-left: 10px;
 }
 
 
