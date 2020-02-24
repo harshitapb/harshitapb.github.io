@@ -945,21 +945,21 @@ footer div p:last-child{
 .mobile_nav_icon_image {
     float: right;
     width: 6%;
-    margin-top: 0px;
-    margin-right: 9px;
+    margin-top: -11px;
+    margin-right: -4px;
 }
 
 .mobile_nav_icon_closeimage {
-    margin-top: -83px;
+    margin-top: -103px;
 }
 
 .sticky .mobile_nav_icon_image {
-    margin-top: 9px;
-    margin-right: 9px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .sticky .mobile_nav_icon_closeimage {
-    margin-top: -100px !important;
+    margin-top: -117px !important;
     transition: height 0.2s;
 }
 
