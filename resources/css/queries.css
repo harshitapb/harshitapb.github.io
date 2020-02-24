@@ -228,6 +228,10 @@
         margin-left: 2%;
         margin-top: 2%;
       }
+
+      .contact_info {
+          margin-left: 0px
+      }
 }
 
 /* small phones : from 0 to 480px */
