@@ -26,6 +26,8 @@
                 // generate the contact number value
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm('contact_service', 'contact_form', this);
+                $("#contact-form")[0].reset();
+                $('.alert').removeClass('alertbox');
             });
         }
     </script>
@@ -366,6 +368,12 @@
                             <input type="submit" value="Send">
                         </div>
                     </div>
+
+                    <div class="alert alertbox">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        <strong>Success!</strong> Email Sent successfully.
+                    </div>
+
                 </form>
                 <div class="contact_info">
                     <p>harshitha.brkr@gmail.com</p>

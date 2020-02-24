@@ -978,3 +978,34 @@ footer div p:last-child{
 .phone_view {
     display: none
 }
+
+.alert {
+    padding: 10px;
+    background-color: #81c784;
+    color: white;
+    width: 61%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 82%;
+    text-align: center;
+    margin-left: 34%;
+  }
+  
+  .closebtn {
+    margin-top: -4px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  .alertbox {
+      display: none;
+  }

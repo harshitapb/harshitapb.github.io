@@ -18,6 +18,9 @@
     .skills_list {
         margin-bottom: 30px !important;
     } 
+    .alert {
+        font-size: 75%;
+    }
 
     /* .about_me_img {
         height: 260px;
@@ -215,6 +218,16 @@
     .contact_row {
         margin-bottom: 5%;
     }
+
+    .alert {  
+        width: 88%;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 125%;
+        text-align: center;
+        margin-left: 2%;
+        margin-top: 2%;
+      }
 }
 
 /* small phones : from 0 to 480px */
