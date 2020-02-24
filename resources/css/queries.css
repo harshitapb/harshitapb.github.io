@@ -31,9 +31,14 @@
 
 /* small phones to small tablets : from 481px to  767px */
 @media only screen and (max-width: 767px) {
+    .hero_image {
+        width: 100%;
+    }
+
     .sticky { 
         position: fixed;
     }
+    
     .name_header {
         line-height: 2;
         font-size: 60%;  
@@ -74,11 +79,11 @@
     .main-nav li {
         margin-top: 10px;
         display: block;
-    }
+    } */
   
     /* .sticky {
         display: none;
-    } */
+    }
 
     /* -----------about me----------------- */
     #aboutme row_aboutme_devices col {
