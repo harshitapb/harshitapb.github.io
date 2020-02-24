@@ -979,6 +979,7 @@ footer div p:last-child{
 .skills_list a {
     text-decoration: none;
     color: rgb(86, 86, 86);
+    display: flex;
 }
 
 .phone_view {
