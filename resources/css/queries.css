@@ -180,6 +180,18 @@
     .plan-box div p {
         font-size: 150%;
     }
+
+    .contactme_form {
+        margin-left: 8%;
+    }
+
+    .phone_view {
+        display: block;
+    } 
+
+    .desktop_view {
+        display: none;
+    }
 }
 
 /* small phones : from 0 to 480px */

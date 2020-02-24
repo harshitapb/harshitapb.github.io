@@ -972,3 +972,7 @@ footer div p:last-child{
 .skills_list {
     margin-bottom: 70px !important;
 }
+
+.phone_view {
+    display: none
+}
