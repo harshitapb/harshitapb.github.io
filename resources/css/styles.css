@@ -424,7 +424,7 @@ section {
     color: #e67e22;
     margin-right: 10px;
     vertical-align: middle;
-    margin-top: 4px;
+    /* margin-top: 4px; */
 }
 
 .city-feature {
@@ -974,6 +974,11 @@ footer div p:last-child{
 
 .skills_list {
     margin-bottom: 70px !important;
+}
+
+.skills_list a {
+    text-decoration: none;
+    color: rgb(86, 86, 86);
 }
 
 .phone_view {
