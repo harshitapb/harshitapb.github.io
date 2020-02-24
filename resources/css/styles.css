@@ -960,3 +960,7 @@ footer div p:last-child{
     margin-top: -100px !important;
     transition: height 0.2s;
 }
+
+.section-features {
+    margin-bottom: 5%;
+}

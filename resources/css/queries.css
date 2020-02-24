@@ -31,6 +31,23 @@
 
 /* small phones to small tablets : from 481px to  767px */
 @media only screen and (max-width: 767px) {
+    
+    header {
+        height: 75vh;
+    }
+
+    .hero-text-box { 
+        top: 40%;
+    }
+
+    .long_text {
+        line-height: 23px;
+    }
+
+    .about_me_description {
+        line-height: 23px !important;
+        font-size: 100% !important;
+    }
     .hero_image {
         width: 100%;
     }
@@ -92,7 +109,7 @@
 
     .about_me_img {
         height: 200px;
-        margin: auto 20%
+        margin: auto 17%
     }
 
     .city-image {
@@ -106,7 +123,25 @@
 
     .project_image {
         width:80%;
+        margin-left : 10%;
     }
+
+    h2 {
+        font-size: 160%;
+        letter-spacing: 2px;
+    }
+
+    .project_number {
+        height: 50px;
+        width: 50px;
+        margin-top: 0;
+    }
+    
+    .project_content {
+        text-align: center;
+        line-height: 22px !important;
+        font-size: 95% !important;
+    } 
 }
 
 /* small phones : from 0 to 480px */
