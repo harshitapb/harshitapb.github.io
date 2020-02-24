@@ -18,6 +18,11 @@
     .skills_list {
         margin-bottom: 30px !important;
     } 
+
+    /* .about_me_img {
+        height: 260px;
+        margin: 10% auto;
+    }  */
 }
 
 /* small tab to large tablets : from 768px to  1023px */
@@ -29,6 +34,11 @@
         font-size: 60%;  
         
     }
+
+    .about_me_img {
+        height: 260px;
+        margin: 10% auto;
+    } 
 }
 
 /* small phones to small tablets : from 481px to  767px */
@@ -110,8 +120,9 @@
     }
 
     .about_me_img {
-        height: 200px;
-        margin: auto 17%
+        height: 225px;
+        display: flex;
+        margin: auto;
     }
 
     .city-image {
@@ -166,6 +177,9 @@
     .skills_list {
         margin-bottom: 30px !important;
     } 
+    .plan-box div p {
+        font-size: 150%;
+    }
 }
 
 /* small phones : from 0 to 480px */
