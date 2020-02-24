@@ -424,7 +424,7 @@ section {
     color: #e67e22;
     margin-right: 10px;
     vertical-align: middle;
-    margin-top: -4px;
+    margin-top: 4px;
 }
 
 .city-feature {
@@ -963,4 +963,12 @@ footer div p:last-child{
 
 .section-features {
     margin-bottom: 5%;
+}
+
+.cert_box ul li {
+    display: flex;
+}
+
+.skills_list {
+    margin-bottom: 70px !important;
 }

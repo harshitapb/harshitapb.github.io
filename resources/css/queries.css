@@ -15,7 +15,9 @@
         font-size: 60%;   
         
     }
-    
+    .skills_list {
+        margin-bottom: 30px !important;
+    } 
 }
 
 /* small tab to large tablets : from 768px to  1023px */
@@ -141,6 +143,28 @@
         text-align: center;
         line-height: 22px !important;
         font-size: 95% !important;
+    } 
+
+    .skill_content_col1 {
+        width: 50% !important;
+    }
+
+    .plan-box ul {
+        font-size: 100% !important;
+    }
+
+    .cert_col {
+        margin-top: 5% !important;
+        margin-left: 0px !important;
+    }
+
+    .contactme_form label{
+        margin-left: 2%;
+        font-size: 100%;
+    }
+
+    .skills_list {
+        margin-bottom: 30px !important;
     } 
 }
 
