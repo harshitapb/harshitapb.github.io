@@ -50,10 +50,14 @@
 
     .hero-text-box { 
         top: 40%;
+        text-align: center;
     }
 
     .long_text {
-        line-height: 23px;
+        line-height: 18px;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 110%;
     }
 
     .about_me_description {
@@ -102,6 +106,7 @@
         display: inline-block;
     }
     .main-nav {
+        margin-top: 9px;
         float: left;
     }
 
@@ -191,6 +196,24 @@
 
     .desktop_view {
         display: none;
+    }
+
+    h1 {
+        font-size: 200% !important;
+        font-weight: bold !important;
+    }
+
+    .short_text {
+        margin-bottom: 6%;
+    }
+
+    .welcome_statement,
+    .heroname  {
+        margin-bottom: 3%;
+    }
+
+    .contact_row {
+        margin-bottom: 5%;
     }
 }
 

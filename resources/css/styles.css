@@ -944,8 +944,9 @@ footer div p:last-child{
 
 .mobile_nav_icon_image {
     float: right;
-    width: 4%;
+    width: 6%;
     margin-top: 0px;
+    margin-right: 9px;
 }
 
 .mobile_nav_icon_closeimage {
@@ -953,7 +954,8 @@ footer div p:last-child{
 }
 
 .sticky .mobile_nav_icon_image {
-    margin-top: 7px;
+    margin-top: 9px;
+    margin-right: 9px;
 }
 
 .sticky .mobile_nav_icon_closeimage {
