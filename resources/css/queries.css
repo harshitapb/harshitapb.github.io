@@ -254,10 +254,15 @@
       }
       .project_chatbot_div1 p, .project_chatbot_div2 p, .project_chatbot_div3 p {
           text-align: justify;
+          word-spacing: 0px;
       }
 
       .project_chatbot_div3 h5, .project_chatbot_div3 p, .project_chatbot_div3 h6 {
         width: 80%;
+      }
+
+      .project_chatbot_div2 h6, .project_chatbot_div3 h6 {
+        font-size: 90%;
       }
 
       .btn:link, .btn:visited, input[type=submit] {
