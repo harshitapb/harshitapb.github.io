@@ -10,10 +10,21 @@ $(document).ready(function() {
             $('nav').removeClass('sticky');
         }
     }
+    
     // , {
     //     offset: '60px;'
     // }
 );
+
+    $('.section_chatbot').waypoint(function(direction) {
+        
+        if (direction == 'down'){
+            $('nav').addClass('sticky');
+        }
+        else {
+            $('nav').removeClass('sticky');
+        }
+    });
 
     // scroll to paymemt/plans section
     $('.js--scroll-to-plans').click(function() {

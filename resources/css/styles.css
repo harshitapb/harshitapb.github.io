@@ -1046,12 +1046,6 @@ footer div p:last-child{
       height: 13vh;
   }
 
-  .section_chatbot {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 60px;
-  }
-
   .project_chatbot_header { 
     margin-bottom: 5%;
     margin-top: 1%;
