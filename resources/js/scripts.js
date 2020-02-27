@@ -93,9 +93,7 @@ $(document).ready(function() {
         nav.slideToggle(200)
     });
 
-    var navstickyevent = document.getElementsByClassName('sticky');
-    console.log(navstickyevent.length)
-    
+    var navstickyevent = document.getElementsByClassName('sticky');  
 
     
 });
