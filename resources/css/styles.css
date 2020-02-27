@@ -645,7 +645,8 @@ footer {
 
 .social-nav {
     list-style: none;
-    float: right;
+    text-align: center;
+    /* float: right; */
 }
 
 .footer-nav li,
@@ -654,12 +655,16 @@ footer {
     margin-right: 20px;
     text-decoration: none;
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .footer-nav li:last-child,
 .social-nav li:last-child {
     margin-right: 0px;
+}
+
+.social-nav a {
+    color: rgb(161, 161, 161);
 }
 
 .footer-nav li a:link,
@@ -681,13 +686,17 @@ footer {
     color: rgb(219, 219, 219);
 } 
 
-.logo-facebook:link,
-.logo-facebook:visited {
+.logo-dribble:link,
+.logo-dribble:visited {
     font-size: 200%;
 }
-.logo-facebook:hover,
-.logo-facebook:active {
-    color: #3b5998;
+.logo-dribble:hover,
+.logo-dribble:active {
+    color: #b2215a;
+}
+
+.logo-dribble {
+    font-size: 250%;
 }
 
 .logo-twitter:hover,
